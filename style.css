@@ -1,0 +1,54 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+#content {
+    z-index: 1;
+    position: absolute;
+    width: 50%;
+    min-width: 500px;
+    background-color: rgba(255, 255, 255, 0.02);
+    padding: 50px;
+    margin-top: 10%;
+}
+
+#logo {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-width: 500px;
+}
+
+#copy {
+    margin-top: 25px;
+    margin-left: 29%;
+    color: #FFF;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5em;
+    color: #F15A24;
+}
+
+.wht {
+    font-family: inherit;
+    color: #FFF !important;
+}
+
+#video {
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    filter: grayscale() brightness(.2);
+}
+
+#loop {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
